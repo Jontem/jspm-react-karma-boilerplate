@@ -38,22 +38,10 @@ module.exports = function (config) {
     },
 
     jspm: {
-      // config: 'base/config.js',
-      paths: {
-        // '/systemjs.js': '/base/jspm_packages/systemjs.js',
-      },
-      // config: 'config.js',
       loadFiles: [
         'test/**/*.js',
         'src/**/*.js'
       ]
-    },
-
-    babelPreprocessor: {
-      options: {
-        presets: ['es2015', 'react'],
-        sourceMap: 'inline'
-      },
     },
 
     // test results reporter to use
